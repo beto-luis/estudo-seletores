@@ -71,6 +71,7 @@ a[href="google.com"]{
 }
 
 .rodape{
+    position: relative;
     bottom: 0;
     right: 0;
     justify-content: center;
