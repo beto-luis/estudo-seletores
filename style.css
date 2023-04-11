@@ -5,7 +5,12 @@
 
 body{
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main{
+    margin: 30px;
 }
 
 h1{
@@ -14,6 +19,8 @@ h1{
 }
 
 .fundo{
+    display: flex;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -22,8 +29,9 @@ h1{
 }
 
 .fundo .imagem{
-    width: 100%;
+    position: fixed;
     height: 100vh;
+    width: 100%;
 }
 
 .paragrafo{
@@ -73,11 +81,9 @@ a[href="google.com"]{
 .rodape{
     position: relative;
     bottom: 0;
-    right: 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
     min-width: 100vw;
+    justify-content: center;
+    display: flex;
     padding: 30px;
     background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.05926120448179273) 50%, rgba(0,0,0,1) 90%);
 }
